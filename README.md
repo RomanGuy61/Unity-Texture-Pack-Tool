@@ -229,6 +229,14 @@ python texture_pack_tool.py migrate ExtractedTextures --game-dir "/path/to/Game_
 - **Restoration depends on backups.** The `CorePack` directory contains the files used by the restore command. Keep it safe.
 - **Test on a copy first.** Applying packs directly modifies the game's asset files.
 
+## Coming Soon
+
+- Material Names
+- Object Names (what texture is on what)
+- Translation toggle in html gallery
+- Photon Studio plugin
+- Auto image scaling
+
 ## How It Works
 
 1. UnityPy reads Unity asset files and identifies textures and audio clips.
